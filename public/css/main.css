@@ -6,3 +6,8 @@
 .resume h1 {
   display: none;
 }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+  text-decoration: underline;
+}
