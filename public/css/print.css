@@ -8,16 +8,16 @@ body {
 
 .resume h1 {
   display: block;
-  font-size: 18pt;
-}
-.resume h2 {
   font-size: 16pt;
 }
-.resume h3 {
+.resume h2 {
   font-size: 14pt;
 }
-.resume h4 {
+.resume h3 {
   font-size: 13pt;
+}
+.resume h4 {
+  font-size: 12pt;
 }
 .resume .breadcrumb li {
   width: 50%;
