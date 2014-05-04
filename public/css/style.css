@@ -1,0 +1,31 @@
+body {
+    font-family: 'junction', serif;
+}
+
+h1 {
+    font-family: 'league gothic', sans-serif;
+}
+a {
+    color: #4A9974;
+}
+a:hover, a:active {
+    color: #5AA984;
+}
+.contact {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 767px) {
+    /*give small screens a little space*/
+    .container {
+        margin: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        margin-top: 80px;
+        max-width: 730px;
+    }
+}

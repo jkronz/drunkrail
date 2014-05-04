@@ -1,148 +1,153 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href='http://fonts.googleapis.com/css?family=Average+Sans|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-  <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css"/>
-  <link href="css/main.css" media="all" rel="stylesheet" type="text/css"/>
-  <link href="css/print.css" media="all" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="fonts/gothic.css">
+  <link rel="stylesheet" href="fonts/junction.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- The source for this page is at http://github.com/jkronz/justinkronz, if you're really interested :) -->
-<div class="container ">
-  <div class="row">
-    <div class="span2 sidebar">
-      <img class="img-polaroid" src="http://www.gravatar.com/avatar/936dc16256cdae2bd56c360b7508a278.png">
 
-      <h1>Justin Kronz</h1>
-      <ul class="nav nav-list">
-        <li><a href="/">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="http://github.com/jkronz" target="_blank">GitHub</a></li>
-        <li><a href="http://facebook.com/justinkronz" target="_blank">Facebook</a></li>
-        <li><a href="http://www.linkedin.com/pub/justin-kronz/35/620/144" target="_blank">LinkedIn</a></li>
-        <li><a href="http://twitter.com/justinkronz" target="_blank">Twitter</a></li>
+<div class="container">
+  <div class="header">
+    <ul class="nav nav-pills pull-right">
+      <li><a href="resume.html"><i class="fa fa-money"></i></a></li>
+      <li><a href="http://github.com/jkronz" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+      <li><a href="http://twitter.com/justinkronz" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="http://instagram.com/kronzagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+    <h1>Justin Kronz
+      <small>in Atlanta, Georgia</small>
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col-md-5 pull-right">
+      <ul class="contact">
+        <li>jkronz@gmail.com</li>
+        <li>724-462-6244</li>
       </ul>
     </div>
-    <div class="span10 resume">
-      <h1>Justin Kronz</h1>
-
-      <div class="row">
-        <div class="span5 pull-right">jkronz@gmail.com</div>
-      </div>
-      <div class="row">
-        <div class="span5 pull-right">724-462-6244</div>
-      </div>
-      <div class="row">
-        <div class="span5 pull-right">https://github.com/jkronz</div>
-      </div>
-      <div class="row">
-        <div class="span6 ">
-          <h3>Experience</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span6 ">
-          <h4>Lead Application Developer at <a href="https://lucenaresearch.com">Lucena Research</a></h4>
-          <h5>September 2012 &mdash; Present</h5>
-
-          <p>Lucena Research provides scientific decision support using machine learning algorithms for investment fund
-            managers.</p>
-          <ul>
-            <li>Lead developer for QuantDesk, a single-page Backbone.js application. The application includes custom
-              charting using Highcharts and D3.js.
-            </li>
-            <li>Lead developer for Lucena Account Portal, the account management application for Lucena Research.</li>
-            <li>Created software development and release process for Lucena engineering teams.</li>
-            <li>Worked with API team to design backend API systems.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span6 ">
-          <h4>Senior Developer at <a href="https://vitrue.com">Vitrue</a>, acquired by Oracle July 2012</h4>
-          <h5>February 2011 &mdash; September 2012</h5>
-
-          <p>Vitrue provides a web-based social media management platform for brand marketers.</p>
-          <ul>
-            <li>Built new client user and group management application to unify Vitrue's existing products under a
-              single sign-on system, creating a central location for complete permission management for social assets.
-            </li>
-            <li>Led development team building extendable modules for Vitrue's Social Content Management application.</li>
-            <li>Led development team for Vitrue's Social Campaign application, delivering easy to configure contest
-              modules for social media marketing campaigns.
-            </li>
-            <li>Built back-end system to integrate Vitrue's Social Campaign application with Oracle's customer
-              relationship management platform.
-            </li>
-            <li>Developed coupon redemption system for large social campaign giveaways.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span6 ">
-          <h4>Senior Developer at <a href="https://mfg.com">MFG.com</a></h4>
-          <h5>March 2010 &mdash; February 2011</h5>
-
-          <p>MFG.com is an online manufacturing marketplace where engineers can seek suppliers to manufacture parts.</p>
-          <ul>
-            <li>Designed, built and maintained MFG.com online manufacturing marketplace in
-              Java, with Spring MVC Framework, JSPs, and Spring DAO.
-            </li>
-            <li>Re-architected existing MFG.com front-end code using Apache Tiles to replace
-              existing custom JSP templating code.
-            </li>
-            <li>Designed and implemented a quick registration system using the jQuery
-              JavaScript library and lightweight JSPs to increase customer sign-ups.
-            </li>
-            <li>Created a new customer search application using HTML 5 and Endeca's
-              Faceted Search system.
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span6 ">
-          <h4>Senior Developer at Objectware Inc., acquired by <a href="http://www.bridgelinedigital.com/">Bridgeline
-            Digital</a></h4>
-          <h5>May 2006 &mdash; March 2010</h5>
-          <p>Bridgeline Digital develops custom web applications for workflow and inventory management.</p>
-          <ul>
-            <li>Created custom object-oriented web software solutions in Java, using the
-              Struts Application Framework, JSPs, Hibernate ORM and Spring’s database template
-              system for third party clients.
-            </li>
-            <li>Developed reflective abstract Java actions to eliminate redundant coding for
-              creating, searching and deleting business objects.
-            </li>
-            <li>Participated in requirements gathering, budget creation, application design,
-              coding and testing.
-            </li>
-            <li>Interacted with clients daily to update project status and discuss new feature
-              requests.
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span6 ">
-          <h3>Education</h3>
-          <h4>Georgia Tech, Bachelor of Science in Computer Science, 2006</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="span6 ">
-          <h3>Languages / Tools / Concepts / Buzzwords</h3>
-
-          <p>Ruby, Rails, RSpec, CoffeeScript, JavaScript, Backbone.js, Jasmine, jQuery, WebSockets, D3.js, Highcharts,
-            Bootstrap,
-            Agile, Scrum, Postgres, SQL, REST, JSON, AJAX, Redis, Thin, Nginx, git, GitHub</p>
-        </div>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Experience</h2>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Senior Developer at <a href="http://scoutmob.com">Scoutmob</a></h4>
+      <h5>October 2013 &mdash; Present</h5>
 
+      <p>Scoutmob supports local makers through a marketplace of curated goods and a mobile app providing deals for
+        local small businesses.</p>
+      <ul>
+        <li>Built new features for Scoutmob Shoppe marketplace; including gift cards and
+          user wish lists.</li>
+        <li>Redesigned and upgraded Scoutmob artist management portal.</li>
+        <li>Updated customer service systems for managing returns and exchanges.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Lead Application Developer at <a href="https://lucenaresearch.com">Lucena Research</a></h4>
+      <h5>September 2012 &mdash; September 2013</h5>
+
+      <p>Lucena Research provides scientific decision support using machine learning algorithms for investment fund
+        managers.</p>
+      <ul>
+        <li>Lead developer for QuantDesk, a single-page Backbone.js application. The application includes custom
+          charting using Highcharts and D3.js.
+        </li>
+        <li>Lead developer for Lucena Account Portal, the account management application for Lucena Research.</li>
+        <li>Created software development and release process for Lucena engineering teams.</li>
+        <li>Worked with API team to design backend API systems.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Senior Developer at <a href="https://vitrue.com">Vitrue</a>, acquired by Oracle July 2012</h4>
+      <h5>February 2011 &mdash; September 2012</h5>
+
+      <p>Vitrue provides a web-based social media management platform for brand marketers.</p>
+      <ul>
+        <li>Built new client user and group management application to unify Vitrue's existing products under a
+          single sign-on system, creating a central location for complete permission management for social assets.
+        </li>
+        <li>Led development team building extendable modules for Vitrue's Social Content Management application.</li>
+        <li>Led development team for Vitrue's Social Campaign application, delivering easy to configure contest
+          modules for social media marketing campaigns.
+        </li>
+        <li>Built back-end system to integrate Vitrue's Social Campaign application with Oracle's customer
+          relationship management platform.
+        </li>
+        <li>Developed coupon redemption system for large social campaign giveaways.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Senior Developer at <a href="https://mfg.com">MFG.com</a></h4>
+      <h5>March 2010 &mdash; February 2011</h5>
+
+      <p>MFG.com is an online manufacturing marketplace where engineers can seek suppliers to manufacture parts.</p>
+      <ul>
+        <li>Designed, built and maintained MFG.com online manufacturing marketplace in
+          Java, with Spring MVC Framework, JSPs, and Spring DAO.
+        </li>
+        <li>Re-architected existing MFG.com front-end code using Apache Tiles to replace
+          existing custom JSP templating code.
+        </li>
+        <li>Designed and implemented a quick registration system using the jQuery
+          JavaScript library and lightweight JSPs to increase customer sign-ups.
+        </li>
+        <li>Created a new customer search application using HTML 5 and Endeca's
+          Faceted Search system.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Senior Developer at Objectware Inc., acquired by <a href="http://www.bridgelinedigital.com/">Bridgeline
+        Digital</a></h4>
+      <h5>May 2006 &mdash; March 2010</h5>
+
+      <p>Bridgeline Digital develops custom web applications for workflow and inventory management.</p>
+      <ul>
+        <li>Created custom object-oriented web software solutions in Java, using the
+          Struts Application Framework, JSPs, Hibernate ORM and Spring’s database template
+          system for third party clients.
+        </li>
+        <li>Developed reflective abstract Java actions to eliminate redundant coding for
+          creating, searching and deleting business objects.
+        </li>
+        <li>Participated in requirements gathering, budget creation, application design,
+          coding and testing.
+        </li>
+        <li>Interacted with clients daily to update project status and discuss new feature
+          requests.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Education</h3>
+      <h4>Georgia Tech, Bachelor of Science in Computer Science, 2006</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Languages / Tools / Concepts / Buzzwords</h3>
+
+      <p>Ruby, Rails, RSpec, CoffeeScript, JavaScript, Backbone.js, Jasmine, jQuery, WebSockets, D3.js, Highcharts,
+        Bootstrap, Agile, Scrum, Postgres, SQL, REST, JSON, AJAX, Redis, Thin, Nginx, git, GitHub</p>
+    </div>
+  </div>
 </div>
-
-
+<!-- /container -->
 </body>
 </html>
