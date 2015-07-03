@@ -1,0 +1,12 @@
+$body-bg: #caccc9;
+$brand-primary: #c3322f;
+$font-family-sans-serif: "PT Mono";
+$headings-font-family: "Roboto Condensed";
+$headings-font-weight: 700;
+$grid-gutter-width: 30px;
+$container-tablet:             (720px + $grid-gutter-width);
+$container-sm:                 $container-tablet;
+$container-desktop:            (720px + $grid-gutter-width);
+$container-md:                 $container-desktop;
+$container-large-desktop:      (720px + $grid-gutter-width);
+$container-lg:                 $container-large-desktop !default;
