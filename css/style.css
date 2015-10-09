@@ -1395,7 +1395,7 @@ html {
 }
 
 body {
-  font-family: "PT Mono";
+  font-family: "Volkhov";
   font-size: 14px;
   line-height: 1.42857;
   color: #5a5a5d;
@@ -1494,8 +1494,8 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto Condensed";
-  font-weight: 700;
+  font-family: "Abril Fatface";
+  font-weight: 400;
   line-height: 1.1;
   color: inherit;
 }
@@ -6378,7 +6378,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "PT Mono";
+  font-family: "Volkhov";
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -6489,7 +6489,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "PT Mono";
+  font-family: "Volkhov";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857;
@@ -7138,11 +7138,6 @@ button.close {
     display: none !important;
   }
 }
-h1, h2, h3, h4, h5 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
 h1 {
   color: #E91214;
 }
